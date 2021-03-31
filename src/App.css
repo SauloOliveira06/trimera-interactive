@@ -127,6 +127,18 @@ header
   position: relative;
 }
 
+.bannerTrimera {
+  position: relative;
+  margin: 65px auto;
+}
+.banner-trimera {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
 .header .ant-anchor-link-title {
   color: #f3f3f3;
 }
@@ -225,10 +237,11 @@ header
 hero
 ---- 
 */
+
 .heroBlock {
-  background: url("assets/images/bg-hero.jpg") no-repeat;
+  /* background: url("assets/images/bg-hero.jpg") no-repeat;*/
   background-position: 50% 100%;
-  background-size: cover;
+  background-size: cover; 
   height: 100vh;
 }
 

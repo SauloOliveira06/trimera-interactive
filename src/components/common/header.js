@@ -27,13 +27,13 @@ function AppHeader() {
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65">
-            <Link href="#hero" title="Home" className="link-navbar" />
-            <Link href="#about" title="Roadmap" className="link-navbar" />
-            <Link href="#feature" title="Explore" className="link-navbar"/>
-            <Link href="#works" title="Support Us" className="link-navbar"/>
-            <Link href="#faq" title="Team" className="link-navbar" />
-            <Link href="#pricing" title="Pricing" className="link-navbar" />
-            <Link href="#contact" title="Contact" className="link-navbar"/>
+            <Link href="#hero" title="Home" />
+            <Link href="#about" title="Roadmap" />
+            <Link href="#feature" title="Explore"/>
+            <Link href="#works" title="Support Us"/>
+            <Link href="#faq" title="Team" />
+            <Link href="#pricing" title="Pricing" />
+            <Link href="#contact" title="Contact"/>
           </Anchor>
         </div>
         <div className="mobileVisible">
