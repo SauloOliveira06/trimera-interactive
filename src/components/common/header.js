@@ -26,9 +26,9 @@ function AppHeader() {
           />
         </div>
         <div className="mobileHidden">
-          <Anchor targetOffset="65">
+          <Anchor targetOffset="20">
             <Link href="#hero" title="Home" />
-            <Link href="#about" title="Roadmap" />
+            <Link href="#roadmap" title="Roadmap" />
             <Link href="#feature" title="Explore"/>
             <Link href="#works" title="Support Us"/>
             <Link href="#faq" title="Team" />
@@ -46,9 +46,9 @@ function AppHeader() {
             onClose={onClose}
             visible={visible}
           >
-            <Anchor targetOffset="65">
+            <Anchor targetOffset="20">
               <Link href="#hero" title="Home" />
-              <Link href="#about" title="About" />
+              <Link href="#roadmap" title="Roadmap" />
               <Link href="#feature" title="Features" />
               <Link href="#works" title="How it works" />
               <Link href="#faq" title="FAQ" />

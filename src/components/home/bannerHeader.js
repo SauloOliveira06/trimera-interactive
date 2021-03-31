@@ -12,6 +12,7 @@ const BannerHeader = () => {
           />
         </div>
       </div>
+
     </>
   );
 };
